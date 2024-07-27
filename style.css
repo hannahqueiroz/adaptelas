@@ -1,0 +1,54 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: #CAADE6;
+    padding: 50px;
+}
+
+header{
+    color: #FFFFFF
+}
+
+section>h1{
+    color: #610588
+}
+
+section>h1{
+    text-align: center;
+}
+
+section>p{
+    color: #610588
+}
+
+#terceiro-fundo{
+    background-color: #610588
+}
+
+#terceiro-fundo{
+    padding: 0;
+}
+
+footer>h2{
+    color: #FFFFFF
+}
+
+footer>h2{
+    text-align: center;
+}
+
+footer>p{
+    color: #FFFFFF
+}
+
+#segundo-fundo{
+  background-color: #610588;  
+}
+
+#plano-fundo{
+background-color: #AA79DC;
+text-align: center;
+padding: 15px;
+}
