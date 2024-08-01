@@ -31,6 +31,10 @@ section>p{
     padding: 0;
 }
 
+#terceiro-fundo{
+    color: white;
+}
+
 footer>h2{
     color: #FFFFFF
 }
@@ -55,4 +59,24 @@ padding: 15px;
 
 span{
     color: #610588;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu_1 {
+
+}
+
+.menu_2 {
+    
+}
+
+.menu_3 {
+    
+}
+
+.menu_4 {
+    
 }
