@@ -1,14 +1,20 @@
 * {
     font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #CAADE6;
-    padding: 50px;
 }
 
 header{
     color: #FFFFFF
+}
+
+header{
+    padding: 50px;
 }
 
 section>h1{
@@ -17,10 +23,20 @@ section>h1{
 
 section>h1{
     text-align: center;
+    padding: 60px 115px 60px 114px;
+    background-color: #CAADE6;
+    display: flex;
 }
 
 section>p{
     color: #610588
+}
+
+section>p{
+    text-align: left
+    padding: 60px 115px 60px 114px;
+    background-color: #CAADE6;
+    display: flex; 
 }
 
 #terceiro-fundo{
@@ -63,20 +79,88 @@ span{
 
 .menu {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header { 
+    padding: 22px 115px 22px 114px;
+    background-color: #610588;
+    font-family: Montserrat;
 }
 
 .menu_1 {
-
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
 }
 
 .menu_2 {
-    
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 20px;
 }
 
 .menu_3 {
-    
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
 }
 
 .menu_4 {
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 20px;
+}
+
+.final-dois {
     
+}
+
+.container-main{
+    display: flex;
+}
+
+.texto{
+    color: #8944ca
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 10px 90px 10px 90px;
+    font-family: Montserrat
+}
+
+body h1{
+    text-align: center;
+    color: #8944ca;
+}
+
+body p{
+    text-align: justify;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.meio{
+    text-align: center;
+}
+
+#imagem-body{
+    padding-left: 50px;
 }
