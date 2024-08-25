@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU CINEMA</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./favoritemovie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js"></script>
+</head>
+</head>
+<body>
+    <header>
+        <h1> MEU CINEMA </h1>
+        <ul>
+            <li>
+                <a href="./index.html" class="link-pagina"> Página Principal</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="div-informacoes">
+            <h2 id="nome">ALL THE LIGHT WE CANNOT SEE</h2>
+            <div>
+                <h2>ÚLTIMA VEZ QUE ASSISTI</h2>
+                <p id="data">03/11/23</p>
+                <div>
+            </div>
+            <h2>DESCRIÇÃO</h2>
+            <p id="descricao">A vida de dois jovens em meio a Segunda Guerra Mundial.</p>
+        </div>
+    </div>
+    <div class="div-personagens">
+        <h2>PERSONAGENS</h2>
+        <div class=" cards">
+        <div>
+            <h2 id="personagem-um">Marie-Laure LeBlanc</h2>
+            <img src="./imagens/imagens/all1.jpg" alt="personagem 1" id="imagem-p1">
+        </div>
+        <div>
+            <h2 id="personagem-dois">Werner Pfenning</h2>
+            <img src="./imagens/imagens/werner-in-all-the-light-we-cannot-see.avif" alt="personagem 2" id="imagem-p2">
+        </div>
+    </div>
+
+</div>
+<button id="abrir-modal">Editar Filme</button>
+</main>
+
+
+<div class="escondida div-modal" id="modal">
+    <div>
+        <h2>Adicionar Filme</h2>
+        <form action="" id="novo-filme">
+            <label for="novo-nome">Nome</label>
+            <input type="text" placeholder="Nome do filme" id="novo-nome">
+
+
+            <label for="nova-data">Data</label>
+            <input type="date" placeholder="Data em que assisti" id="nova-data">
+
+
+            <label for="nova-descricao">Descrição</label>
+            <input type="text" placeholder="Descrição do filme" id="nova-descricao">
+
+
+            <label for="novo-p1">Nome do Personagem 1</label>
+            <input type="text" placeholder="Nome do personagem um" id="novo-p1">
+            <label for="nova-imagem-p1">Imagem do Personagem 1</label>
+            <input type="file" placeholder="Imagem do personagem um" id="nova-imagem-p1" class="input-arquivo">
+
+
+            <label for="novo-p2">Nome do Personagem 2</label>
+            <input type="text" placeholder="Nome do personagem dois" id="novo-p2">
+            <label for="nova-imagem-p2">Imagem do Personagem 2</label>
+            <input type="file" placeholder="Imagem do personagem dois" id="nova-imagem-p2" class="input-arquivo">
+
+
+            <button id="salvar">Salvar</button>
+        </form>
+    </div>
+</div>
+
+    <footer>
+        <p> Desenvolvido por <b>Adapti </b> com <i class="fa fa-solid fa-heart"></i></p>
+    </footer>
+</body>
+</html>
